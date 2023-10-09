@@ -109,7 +109,8 @@ The most relevant correlations where on variables which have dependencies each o
 
 ![](img/calibration_curve.PNG)
 
-> Final metrics XGB
+- Final metrics XGB
+
 | Model name | Precision | Recall |
 |:-----------:|:--------:|:-----------:|
 | XGBClassifier| 0.594 +/- 0.027 | 0.597 +/- 0.040 |
@@ -127,14 +128,17 @@ The strategy is to make a simulation in the dataset with all the three options a
 - Clients **above** average: returns **3%** of their **Estimated Salary**;
 - Clients **below** average: returns **5%** of their **Estimated Salary**;
 
-The mean Estimated Salary is **$100.090,00**. For example, if the client's yearly Estimated salary is **$100.000,00** the bank has a **$100.000,00 x 5%** = **$5.000,00** yearly return per client.
+The mean Estimated Salary is **$100.090,00**. 
+For example, if the client's yearly Estimated salary is **$100.000,00** the bank has a **$100.000,00 x 5%** = **$5.000,00** yearly return per client.
 
 
 > With a cupom of **$ 50**...
-> If the top clients were recovered: **$736,073.54**
-> Non-churn clients those received the discount: **$100.00**
-> Pessimistic scenario **$515,251.48**
-> Realistic scenario: **$588,858.83**
-> Optimist scenario: **$662,466.19**
-> Average scenario: **$588,858.83**
-> ROI: **5,888.59 %**
+
+> - If the top clients were recovered: **$736,073.54**
+
+> - Non-churn clients those received the discount: **$100.00**
+> - Pessimistic scenario **$515,251.48**
+> - Realistic scenario: **$588,858.83**
+> - Optimist scenario: **$662,466.19**
+> - Average scenario: **$588,858.83**
+> - ROI: **5,888.59 %**
